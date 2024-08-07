@@ -28,7 +28,7 @@ h3 {
 .header {
     display: flex;
     border-bottom: 1px solid #000;
-    padding-bottom: 10px;
+    padding: 10px 20px;
     font-size: 20px;
 }
 
@@ -38,6 +38,7 @@ h3 {
     color: lightgreen;
     background-color: rebeccapurple;
     font-weight: 700;
+    padding: 5px 15px;
 }
 
 ul {
@@ -48,7 +49,7 @@ ul {
 }
 
 ul>li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .box {
@@ -59,8 +60,16 @@ ul>li {
 }
 
 .aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
+    /* border-right: 1px solid #000;
+    padding-right: 20px; */
+    background-color: lavender;
+    padding: 10px 20px;
+}
+
+.section {
+    background-color: lavender;
+    padding: 5px 20px;
+    margin-bottom: 20px;
 }
 
 .post {
@@ -69,4 +78,6 @@ ul>li {
 
 .footer {
     font-size: 13px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
